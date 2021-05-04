@@ -1,0 +1,62 @@
+ abc 패키지 ;
+import  java.io. * ;
+import  java.util.Iterator ;
+
+import  org.jsoup.Jsoup ;
+import  org.jsoup.nodes.Document ;
+import  org.jsoup.nodes.Element ;
+import  org.jsoup.select.Elements ;
+
+public  class  abc {
+
+	public  static  void  main ( String [] args ) throws  IOException {
+		
+		
+// 		예시 1. 특정 클래스 읽기
+// 		문서 문서 = Jsoup.connect ( "http://hangyodae.com/bbs/board.php?bo_table=news&wr_id=29") .get ();
+// 		요소 body = doc.select ( ". viewContents");
+//		
+// 		for (요소 e : body)
+// 			System.out.println (e.text ());
+//		
+//		
+// 		예시 2. 바디 태그 만 읽기.
+// 		문서 문서 = Jsoup.connect ( "http://naver.com") .get ();
+// 		요소 body = doc.select ( "body");
+//		
+// 		for (요소 e : body)
+// 			System.out.println (e.text ());
+		
+// 		/ * 링크 뽑아 오기 * /
+// 		문서 문서 = Jsoup.connect ( "http://naver.com") .get ();
+// 		요소 링크 = doc.select ( "a [href]");
+//		
+// 		for (요소 l : 링크)
+// 			System.out.println ( "link :"+ l.attr ( "abs : href"));
+//	
+		
+// 		/ * 응용하여 한국 야구 순위 테이블 가져 오기 * /
+// 		문서 문서 = Jsoup.connect ( "http://kbodata.news.naver.com/m_rank/rank_team.asp") .get ();
+//		
+// 		요소 rows = doc.select ( "table.table_board2 tbody tr");
+//         String [] items = { "순위", "팀", "경기 수", "승", "패", "무", "승률", "연속",
+//             "최근 10 경기"};
+//        
+//         for (요소 행 : 행) {
+//           Iterator <Element> iterElem = row.getElementsByTag ( "td"). iterator ();
+//           StringBuilder 빌더 = new StringBuilder ();
+//           for (문자열 항목 : 항목) {
+//             builder.append (item + ":"+ iterElem.next (). text () + "\ t \ t");
+//           }
+//           System.out.println (builder.toString ());
+//         }
+//        
+//        
+        // 태그 제거.
+		// data = data.replaceAll ( "<(/)? ([a-zA-Z] *) (\\ s [a-zA-Z] * = [^>] *)? (\\ s) * (/)?> "," ");
+		
+	
+	}
+
+}
+© 2021 GitHub, Inc.
